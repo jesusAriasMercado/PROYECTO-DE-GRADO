@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap');
+
+.img {
+  filter: hue-rotate(210deg) brightness(1.5) saturate(1.5);
+  transition: filter 0.3s ease;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+
+  
